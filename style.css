@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url("https://images.unsplash.com/photo-1551009175-15bdf9dcb580");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .container {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  input {
+    margin: 0 auto;
+    width: 250px;
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  label {
+    color: white;
+  }
+  
+  button {
+    margin: 0 auto;
+    width: 250px;
+    padding: 6px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  
+  h2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  
